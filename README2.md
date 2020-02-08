@@ -20,7 +20,7 @@ docker build -t cuckoo/frontend -f Dockerfile.dev .
 # Running docker container
 docker run -p 900:3000 cuckoo/frontend
 
-## Above docker command not working in window 10 i had to create 
+## Above docker command not wor'king in window 10 i had to create 
 
 
 # Refering local file changes of dev enf but we dont want to refere /app/node_modules folders

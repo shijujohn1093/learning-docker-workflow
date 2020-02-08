@@ -1,9 +1,12 @@
 version: '3'
 services:
-  node-app:
+  web:
     restart : on-failure
-    build: .
+    build:
+      context : .
+      dockerfile : Dockerfile.dev
     ports:
       - "9002:3000"
     volumes:
-      - ${pwd}:/app
+      - /app/node_modules
+      - .:/app
