@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-    Hi World !! Change me and it will be reflected on browser.
+    Hello World !! Change me and it will be reflected on browser.
+
       </header>
 
 
