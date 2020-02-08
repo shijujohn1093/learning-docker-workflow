@@ -1,0 +1,9 @@
+version: '3'
+services:
+  node-app:
+    restart : on-failure
+    build: .
+    ports:
+      - "9002:3000"
+    volumes:
+      - ${pwd}:/app
