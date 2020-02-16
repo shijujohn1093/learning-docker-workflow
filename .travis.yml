@@ -4,6 +4,8 @@ services:
 
 language: node_js
 
+os: linux
+
 before_install:
   - docker build -t cuckoo/frontend -f Deockerfile.dev .
 
