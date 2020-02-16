@@ -1,10 +1,12 @@
+language: node_js
+node_js:
+  - "7"
+  - "6"
+  - "5"
+  - "4"
 sudo: required
 services:
   - docker
-
-language: node_js
-
-os: linux
 
 before_install:
   - docker build -t cuckoo/frontend -f Deockerfile.dev .
