@@ -2,10 +2,10 @@ sudo: required
 services:
   - docker
 
+language: node_js
+
 before_install:
   - docker build -t cuckoo/frontend -f Deockerfile.dev .
 
 script:
   - docker run cuckoo/frontend npm run test
-
-language: node_js
