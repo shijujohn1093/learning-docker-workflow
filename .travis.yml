@@ -7,3 +7,5 @@ before_install:
 
 script:
   - docker run cuckoo/frontend npm run test
+
+language: node_js
