@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t cuckoo/frontend -f Deockerfile.dev .
+
+script:
+  - docker run cuckoo/frontend npm run test
