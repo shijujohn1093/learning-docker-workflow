@@ -47,3 +47,5 @@ Add the following text to the file and save it: CHOKIDAR_USEPOLLING=true
 That's all!
 
 For more on why this is required, you can check out: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-start-doesn-t-detect-changes
+
+testtt
