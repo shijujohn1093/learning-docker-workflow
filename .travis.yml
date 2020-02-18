@@ -6,4 +6,4 @@ before_install:
   - docker build -t cuckoo/frontend -f Dockerfile.dev .
 
 script:
-  - docker run cuckoo/frontend npm run test
+  - docker run -e CI=true cuckoo/frontend npm run test
